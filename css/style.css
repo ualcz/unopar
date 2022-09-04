@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+body{       
+    background-color: #F9F9F9;
+}
+#menu-h{
+    background-color: #FFFFFF;
+    margin-left:100px;
+    margin-top: -60px;
+    text-align: center;
+}
+#list ul li{
+    display: inline-block;
+}
+#list ul{
+    max-width: 1500px;
+    list-style:none;
+}
+#menu-h ul {    
+    max-width: 1000px;
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    padding: 7px;
+    margin-bottom: 15px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    color: black;
+}
+
+
+#menu-h ul li a:hover {
+    color: #007DC5;
+}
+
+
+
+
+
+#pao {
+    color: #9B111E;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+#produtos {
+    color: #9B111E;
+    padding-top: 50px;
+    padding-left: 10px;
+    text-align: center;
+}
+#alunos {
+    color: #9B111E;
+    padding-top: 500px;
+    padding-left: 10px;
+}
+#centeio{
+    position: relative;
+    padding-left: 700px ;
+    padding-top: 50px;
+}
+#imagem{
+    position: relative;
+    bottom: 170px;
+    padding-right: 700px;
+    padding-top: 30px;
+    max-width: 1000px;
+    max-height: 1000px;
+}
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.content {
+    min-height: calc(100vh - 70px);
+    border-bottom: 2px;
+  }
+  .footer {
+    height: 70px;
+  }
+  footer {
+    background: #9B111E;
+    color: white;
+    line-height: 50px;
+    padding: 0 20px;
+  }
+  #esquerda{
+      margin-right: 1000px;
+  }
+  #A{
+      margin-right: 300px;
+      margin-top: 25px;
+      
+  }
+  #linha {
+      width: 90%;
+  }

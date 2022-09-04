@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+body{       
+    background-color: #F9F9F9;
+}
+#menu-h{
+    background-color: #FFFFFF;
+    margin-left:100px;
+    margin-top: -60px;
+    text-align: center;
+}
+#list ul li{
+    display: inline-block;
+}
+#list ul{
+    max-width: 1500px;
+    list-style:none;
+}
+#menu-h ul {    
+    max-width: 1000px;
+    list-style: none;
+    padding:9px;
+    text-align: right;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    padding: 7px;
+    margin-bottom: 15px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    color: black;
+}
+#menu-h ul li a:hover {
+    color: #007DC5;
+}
+
+
+
+
+.cont{
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	background: url(https://s3-captacao-puc-drupal7-prd.s3-sa-east-1.amazonaws.com/sites/default/files/s3fs-public/styles/area_candidato_pagina_login/public/bg-login-candidatos-vestibulares.jpg?itok=9vKTdgpI);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+  a {
+    text-decoration: none;
+    color: #000000;}
+  
+  .container {
+    display: inline-block;
+    
+    width: 1000px;
+  }
+  
+  ul {
+    padding-left: 0;
+    margin-top: 12px;
+    list-style: none;
+  }
+  
+  nav {
+
+    font-size: 0;
+    position: relative;
+      
+  }
+  
+  nav > ul > li {
+      display: inline-block;
+      font-size: 14px;
+      padding: 5px;
+      position: relative;
+  }
+  
+  nav > ul > li > a {
+      display: block;
+      border-bottom: 3px solid transparent;
+      transition: all .3s ease;
+  }
+  nav > ul > li:hover > a {
+    border-bottom: 3px solid rgb(6, 90, 245);
+      color: #444; 
+      
+  }
+  
+  .mega-menu {
+      background: #eee;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.5s linear;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      padding-bottom: 20px;
+  }
+  .mega-menu h3 {
+    text-align: left;
+    font-size: 15px;
+    color: rgb(35, 87, 231);
+    font: bolder;
+  }
+  
+  .mega-menu .container {
+      display: flex;
+  }
+  .mega-menu .item {
+    flex-grow: 1;
+      margin: 0 10px;
+  }
+  .mega-menu .item img {
+      width: 100%;
+  }
+  .mega-menu a {
+    color: #000000;
+      display: block;
+      padding: 10px 0;
+  }
+  
+  
+  .dropdown {position: static;}
+  
+  .dropdown:hover .mega-menu {
+      visibility: visible;
+      opacity: 1;
+  }
+
+  .in{
+    text-align: center;
+  }
+
+  .img{
+    display: inline-block ;
+  }
+
+  p{
+    text-align: left;
+    font-size: 13px;
+  }
+
+  
